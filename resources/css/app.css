@@ -1,0 +1,14 @@
+@import '/vendor/filament/filament/resources/css/theme.css'; /* Import the Filament theme */
+
+@import '/vendor/filament/filament/resources/css/index.css';
+
+@import '../../vendor/alperenersoy/filament-export/resources/css/filament-export.css';
+/* Custom styles */
+.compact-table .fi-ta-text {
+    @apply py-26;
+    @apply bg-green-500;
+}
+
+.compact-table .fi-ta-cell.px-3.py-4, .compact-table .fi-ta-cell .whitespace-nowrap.px-3.py-4 {
+    @apply p-10;
+}
